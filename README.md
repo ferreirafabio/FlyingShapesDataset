@@ -16,7 +16,7 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
 - video resolution: 128x128
 - fps: 30
 - color depth: 24bpp (3 channels, grayscale)
-- used video coded: ffmjpeg
+- video codec: ffmjpeg
 - compression format: mjpeg, color encoding: yuvj420p
 - the samples follow the naming: 
   ```
