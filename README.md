@@ -12,6 +12,7 @@ For instance, one can use it as a toy dataset to investigate the capacity and ou
 
 # Specifications
 We provide both the videos as .avi files as well as TensorFlow tfrecord files. The samples in the tfrecord files contain 10 frames of the original video which were taken equally distributed over the entire playtime. Here are some more details:
+## Dataset as avi
 - video resolution: 128x128
 - fps: 30
 - color depth: 24bpp (3 channels, grayscale)
@@ -27,6 +28,24 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
     - ```endLocation``` destination position of the object, e.g. leftbottom
     - ```motionDirection``` e.g. left
     - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617 
+
+## Dataset as tfrecord
+The tfrecord files store both the video itself and meta information from the file name (start location, eucl. distance etc.).
+- the data is stored in a feature dict (which is serialized as ```tf.train.Example```)
+- the dict stores the following keys: 
+  - video data:
+    - feature[path] #('blob' + '/' + str(imageCount)
+    - feature['height']
+    - feature['width']
+    - feature['depth']
+    - feature['id']
+  - meta data:
+    - feature['shape']
+    - feature['color']
+    - feature['start_location']
+    - feature['end_location']
+    - feature['motion_location']
+    - feature['eucl_distance']
 
 
 # Contributors
