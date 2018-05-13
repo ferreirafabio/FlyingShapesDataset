@@ -1,4 +1,4 @@
-# Description
+# Simulated Flying Shapes Dataset
 The dataset consists of 90 000 grayscale videos that show two objects of equal shape and size in which one object approaches the other one. The object speed during the process of approaching is hereby modeled by a proportional-derivative controller. Overall, three different shapes (Rectangle, Triangle and Circle) are provided. Initial conﬁguration of the objects such as position and color were randomly sampled. Different from the moving MNIST dataset, the samples comprise a goal-oriented task, namely one object has to fully cover the other object rather than randomly moving, making it better suitable for testing prediction capabilities of an ML model.
 
 For instance, one can use it as a toy dataset to investigate the capacity and output behavior of a deep neural network before testing it on real-world data. We have done this for a deep auto-encoder network:
