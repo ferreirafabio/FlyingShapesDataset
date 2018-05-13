@@ -14,7 +14,7 @@ For instance, one can use this dataset as a toy dataset to test the capacity and
 We provide both the videos as .avi files as well as TensorFlow tfrecord files. The samples in the tfrecord files contain 10 frames of the original video which were taken equally distributed over the entire playtime. Here are some more details:
 - video resolution: 128x128
 - fps: 30
-- color channels: 
+- color depth: 24bpp (3 channels, grayscale)
 - used video coded: ffmjpeg
 - compression format: mjpeg, color encoding: yuvj420p
 - the samples follow the naming: 
