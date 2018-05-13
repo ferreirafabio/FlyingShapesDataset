@@ -31,16 +31,14 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
 
 ## Dataset as tfrecord
 The tfrecord files store both the video itself and meta information from the file name (start location, eucl. distance etc.).
-- the data is stored in a feature dict (which is serialized as ```tf.train.Example```)
-- the dict stores the following keys: 
-  - video data:
+- the video data is stored in a ```feature``` dict (which is serialized as ```tf.train.Example```) which stores the following keys 
     - feature[path] #('blob' + '/' + str(imageCount)
     - feature['height']
     - feature['width']
     - feature['depth']
     - feature['id']
-  - meta data:
-    - feature['shape']
+- additional information is stored in a ```meta_dict```
+    - feature['shape']
     - feature['color']
     - feature['start_location']
     - feature['end_location']
