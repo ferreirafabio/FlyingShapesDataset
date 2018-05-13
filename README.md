@@ -12,7 +12,7 @@ For instance, one can use it as a toy dataset to investigate the capacity and ou
 
 # Download
 Automatically download the data by using the included scripts:
-- ```python download_videos.py``` (~1.3GB) or 
+- ```python download_videos.py``` (~23GB) or 
 - ```python download_tfrecords.py``` for the tfrecords respectively (~89 GB)
 
 or manually download them by invoking the download links in the files
