@@ -37,12 +37,12 @@ The tfrecord files store both the video itself and meta information from the fil
     - feature['width']
     - feature['depth']
     - feature['id']
-- additional information is stored in a ```meta_dict```
-    - feature['shape']
-    - feature['start_location']
-    - feature['end_location']
-    - feature['motion_location']
-    - feature['eucl_distance']
+- additional information is stored in a ```meta_dict``` (which is also serialized within the feature dict via the key 'metadict')
+    - meta_dict['shape']
+    - meta_dict['start_location']
+    - meta_dict['end_location']
+    - meta_dict['motion_location']
+    - meta_dict['eucl_distance']
 
 
 # Contributors
