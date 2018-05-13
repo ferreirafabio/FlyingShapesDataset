@@ -39,7 +39,6 @@ The tfrecord files store both the video itself and meta information from the fil
     - feature['id']
 - additional information is stored in a ```meta_dict```
     - feature['shape']
-    - feature['color']
     - feature['start_location']
     - feature['end_location']
     - feature['motion_location']
