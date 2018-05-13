@@ -26,9 +26,7 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
     - ```startLocation``` starting position of the object, e.g. righttop
     - ```endLocation``` destination position of the object, e.g. leftbottom
     - ```motionDirection``` e.g. left
-    - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617
-
-- 
+    - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617 
 
 
 # Contributors
