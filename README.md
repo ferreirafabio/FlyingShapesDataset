@@ -10,7 +10,19 @@ For instance, one can use this dataset as a toy dataset to test the capacity and
 ![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_generated_circle.gif)
 ![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)
 
+# Specifications
+We provide both the videos as .avi files as well as TensorFlow tfrecord files. The samples in the tfrecord files contain 10 frames of the original video which were taken equally distributed over the entire playtime. Here are some more details:
+- the samples follow the naming: 
+  ```
+  id_shape_startLocation_endLocation_motionDirection_euclideanDistance
+  ```
+  where:
+  - ```id``` is a unique identifier
+  - ```startLocation``` starting position of the object, e.g. righttop
+  - ```endLocation``` destination position of the object, e.g. leftbottom
+  - ```motionDirection``` e.g. left
+  - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617
 
 
 # Contributors
-Fabio Ferreira, Jonas Rothfuss, You Zhou, Eren E. Aksoy
+Fabio Ferreira, Jonas Rothfuss, Eren E. Aksoy, You Zhou
