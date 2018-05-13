@@ -17,11 +17,11 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
   id_shape_startLocation_endLocation_motionDirection_euclideanDistance
   ```
   where:
-  - ```id``` is a unique identifier
-  - ```startLocation``` starting position of the object, e.g. righttop
-  - ```endLocation``` destination position of the object, e.g. leftbottom
-  - ```motionDirection``` e.g. left
-  - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617
+    - ```id``` is a unique identifier
+    - ```startLocation``` starting position of the object, e.g. righttop
+    - ```endLocation``` destination position of the object, e.g. leftbottom
+    - ```motionDirection``` e.g. left
+    - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617
 
 
 # Contributors
