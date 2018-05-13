@@ -5,8 +5,7 @@ For instance, one can use this dataset as a toy dataset to test the capability a
 
 ![Square](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/000618_original_square.gif)
 ![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_original_circle.gif)
-![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)
-
+![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)  
 ![Square](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/000618_generated_square.gif)
 ![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_generated_circle.gif)
 ![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)
