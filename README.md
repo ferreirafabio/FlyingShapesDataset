@@ -10,6 +10,29 @@ For instance, one can use it as a toy dataset to investigate the capacity and ou
 ![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_generated_circle.gif)
 ![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)
 
+# Download
+Automatically download the data by using the included scripts:
+- ```python download_videos.py``` (~2GB) or 
+- ```python download_tfrecords.py``` for the tfrecords respectively (~89 GB)
+
+or manually download them by invoking the download links in the files
+- ```flyingshapes_videos.txt```
+- ```flyingshapes_tfrecords.txt```
+
+# Citing
+If you use the dataset in your research, you should cite it as follows:
+
+```
+@misc{npde2018,
+    author = {Fabio Ferreira, Jonas Rothfuss, Eren E. Aksoy, You Zhou},
+    title = {Simulated Flying Shapes Dataset},
+    year = {2018},
+    publisher = {GitHub},
+    journal = {GitHub repository},
+    howpublished = {\url{https://github.com/ferreirafabio/FlyingShapesDataset}},
+}
+```
+
 # Specifications
 We provide both the videos as .avi files as well as TensorFlow tfrecord files. The samples in the tfrecord files contain 10 frames of the original video which were taken equally distributed over the entire playtime. Here are some more details:
 ## Dataset as avi
