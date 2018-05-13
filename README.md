@@ -66,7 +66,3 @@ The tfrecord files store both the video itself and meta information from the fil
     - meta_dict['end_location']
     - meta_dict['motion_location']
     - meta_dict['eucl_distance']
-
-
-# Contributors
-Fabio Ferreira, Jonas Rothfuss, Eren E. Aksoy, You Zhou
