@@ -1,5 +1,5 @@
 # Description
-The dataset consists of 90 000 videos that show two objects of equal shape and size in which one object approaches the other one. The object speed during the process of approaching is hereby modelled by a proportional-derivative controller. Overall, three different shapes (Rectangle, Triangle and Circle) are provided. Initial conﬁguration of the objects such as position and color were randomly sampled. Different from the moving MNIST dataset, the samples comprise a goal-oriented task, namely one object has to fully cover the other object rather than random moving behavior, making it better suitable for testing prediction capabilities of an ML model.
+The dataset consists of 90 000 grayscale videos that show two objects of equal shape and size in which one object approaches the other one. The object speed during the process of approaching is hereby modelled by a proportional-derivative controller. Overall, three different shapes (Rectangle, Triangle and Circle) are provided. Initial conﬁguration of the objects such as position and color were randomly sampled. Different from the moving MNIST dataset, the samples comprise a goal-oriented task, namely one object has to fully cover the other object rather than random moving behavior, making it better suitable for testing prediction capabilities of an ML model.
 
 For instance, one can use this dataset as a toy dataset to test the capacity and output behaviour of a deep neural network before addressing real-world data as we have done with a deep auto-encoder:
 
@@ -12,6 +12,11 @@ For instance, one can use this dataset as a toy dataset to test the capacity and
 
 # Specifications
 We provide both the videos as .avi files as well as TensorFlow tfrecord files. The samples in the tfrecord files contain 10 frames of the original video which were taken equally distributed over the entire playtime. Here are some more details:
+- video resolution: 128x128
+- fps: 30
+- color channels: 
+- used video coded: ffmjpeg
+- compression format: mjpeg, color encoding: yuvj420p
 - the samples follow the naming: 
   ```
   id_shape_startLocation_endLocation_motionDirection_euclideanDistance
@@ -22,6 +27,8 @@ We provide both the videos as .avi files as well as TensorFlow tfrecord files. T
     - ```endLocation``` destination position of the object, e.g. leftbottom
     - ```motionDirection``` e.g. left
     - ```euclideanDistance``` Euclidean distance between the two objects, e.g. 7.765617
+
+- 
 
 
 # Contributors
