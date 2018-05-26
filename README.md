@@ -10,6 +10,8 @@ For instance, one can use it as a toy dataset to investigate the capacity and ou
 ![Circle](/examples/001483_generated_circle.gif)
 ![Triangle](/examples/007033_original_triangle.gif)
 
+To accesss a similar dataset see ![Simulated Planar Manipulator Dataset](https://github.com/ferreirafabio/PlanarManipulatorDataset)
+
 # Download
 Automatically download the data by using the included scripts:
 - ```python download_videos.py``` (.tar files ~1.3GB, uncompressed ~23GB) or 
