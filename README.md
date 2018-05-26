@@ -3,12 +3,12 @@ The dataset consists of 90 000 grayscale videos that show two objects of equal s
 
 For instance, one can use it as a toy dataset to investigate the capacity and output behavior of a deep neural network before testing it on real-world data. We have done this for a deep auto-encoder network:
 
-![Square](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/000618_original_square.gif)
-![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_original_circle.gif)
-![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)  
-![Square](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/000618_generated_square.gif)
-![Circle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/001483_generated_circle.gif)
-![Triangle](https://github.com/ferreirafabio/FlyingShapesDataset/blob/master/examples/007033_original_triangle.gif)
+![Square](/examples/000618_original_square.gif)
+![Circle](/examples/001483_original_circle.gif)
+![Triangle](/examples/007033_original_triangle.gif)  
+![Square](/examples/000618_generated_square.gif)
+![Circle](/examples/001483_generated_circle.gif)
+![Triangle](/examples/007033_original_triangle.gif)
 
 # Download
 Automatically download the data by using the included scripts:
@@ -25,7 +25,7 @@ If you use the dataset in your research, you should cite it as follows:
 ```
 @misc{npde2018,
     author = {Fabio Ferreira, Jonas Rothfuss, Eren E. Aksoy, You Zhou},
-    title = {Simulated Flying Shapes Dataset},
+    title = {Introducing the Simulated Flying Shapes and Simulated Planar Manipulator Datasets},
     year = {2018},
     publisher = {GitHub},
     journal = {GitHub repository},
