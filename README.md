@@ -29,9 +29,9 @@ If you use the dataset in your research, you should cite it as follows:
     author = {Fabio Ferreira, Jonas Rothfuss, Eren E. Aksoy, You Zhou, Tamim Asfour},
     title = {Introducing the Simulated Flying Shapes and Simulated Planar Manipulator Datasets},
     year = {2018},
-    publisher = {GitHub},
-    journal = {GitHub repository},
-    howpublished = {\url{https://github.com/ferreirafabio/FlyingShapesDataset}},
+    publisher = {arXiv},
+    publication = {eprint arXiv:1807.00703},
+    howpublished = {\url{https://arxiv.org/abs/1807.00703v1}},
 }
 ```
 
